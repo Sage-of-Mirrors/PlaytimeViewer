@@ -21,7 +21,10 @@
     <ClCompile Include="source\PlaytimeRecords.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\BinaryReader.cpp">
+    <ClCompile Include="source\NSUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TimeUtil.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,8 +35,17 @@
     <ClInclude Include="include\PlaytimeRecords.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\BinaryReader.h">
+    <ClInclude Include="include\NSUtil.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TimeUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BinaryFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BinaryFile.cpp">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

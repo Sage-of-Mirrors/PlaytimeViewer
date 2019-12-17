@@ -6,6 +6,7 @@
 int main(int argc, char* argv[])
 {
     consoleInit(NULL);
+    nsInitialize();
 
     PlaytimeLogFile f("test.ptl");
 
@@ -32,6 +33,7 @@ int main(int argc, char* argv[])
     }
 
     // Deinitialize and clean up resources used by the console (important!)
+    nsExit();
     consoleExit(NULL);
     return 0;
 }
